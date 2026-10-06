@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#2563EB</color>
+    <color name="primary_dark">#1E3A8A</color>
+    <color name="primary_teal">#14B8A6</color>
+    <color name="background_soft">#F3F6FB</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_dark">#111827</color>
+    <color name="text_gray">#6B7280</color>
+    <color name="green_success">#10B981</color>
+    <color name="orange_warning">#F59E0B</color>
+    <color name="red_danger">#EF4444</color>
+</resources>

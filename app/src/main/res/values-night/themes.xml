@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.NilaiSiswaApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Warna utama aplikasi NilaiKu -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorPrimaryContainer">@color/primary_dark</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <item name="colorSecondary">@color/primary_teal</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="colorSecondaryContainer">@color/primary_teal</item>
+        <item name="colorOnSecondaryContainer">#FFFFFF</item>
+
+        <!-- Background umum -->
+        <item name="android:windowBackground">@color/background_soft</item>
+        <item name="colorSurface">@color/card_white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+
+        <!-- Status bar dan navigation bar -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/background_soft</item>
+
+        <!-- Agar button Material tidak default ungu -->
+        <item name="materialButtonStyle">@style/Widget.NilaiKu.Button</item>
+
+    </style>
+
+    <style name="Theme.NilaiSiswaApp" parent="Base.Theme.NilaiSiswaApp" />
+
+    <!-- Style default untuk tombol aplikasi -->
+    <style name="Widget.NilaiKu.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_blue</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

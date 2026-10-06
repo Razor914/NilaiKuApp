@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NilaiKu</string>
+    <string name="edit_guru">Edit guru</string>
+    <string name="hapus_guru">Hapus guru</string>
+</resources>
